@@ -11,6 +11,10 @@ class CustomerDetails{
   char Gender= 'M';
   String Email= "customer1@gmail.com";
   long mobile= 1122334455L;
-  System.out.println("The customer deatils are: /n%d /n%c /n%c /n%s /n%d",ID,Name,Gender,Email,mobile);
+  System.out.println("ID ="+ID);
+	System.out.println("Name ="+Name);
+	System.out.println("Gender ="+Gender);
+	System.out.println("Email ="+Email);
+	System.out.println("Mobile ="+mobile);
  }
 }
